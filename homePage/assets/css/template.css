@@ -1,0 +1,187 @@
+/*==============================================
+ ESTILOS GLOBALES
+/*=============================================*/
+
+body{
+	margin:0px;
+	padding: 0px;
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif; 
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #2f2e41;
+}
+
+/*==============================================
+ SOCIAL
+/*=============================================*/
+
+.social a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 15px;
+}
+.social{
+	position:fixed;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	padding: 5px 0px;
+	z-index: 1;
+}
+.social a i{
+	color:rgba(39,39,39,0.80);
+}
+ 
+.social a:hover .fa-facebook-f{
+	color: #3b5998;
+}
+.social a:hover .fa-twitter{
+	color: #00acee ;
+}
+.social a:hover .fa-instagram{
+	color:  #3f729b ;
+}
+.social a:hover .fa-youtube{ 
+	color: 	#FF0000;
+}
+
+/*==============================================
+ BOTON PARA IR ARRIBA
+/*=============================================*/
+
+.goTop{
+  position: fixed;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  display: none;
+}
+
+/*==============================================
+ CONTACT ME
+/*=============================================*/
+
+.contact-me{
+  width: 100%;
+  height:280px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: url("../img/project in your mind.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 25px 0px;
+}
+
+.contact-me p{
+  color:#FFFFFF;
+  font-size: 30px;
+  font-family: calibri;
+  font-weight:bold;
+  border-bottom:2px solid #ffffff;
+}
+
+.contact-me button{
+  width:200px;
+  height:40px;
+  background-color: #FFFFFF;
+  border:none;
+  outline:none;
+  font-size:14px;
+  font-weight:bold;
+}
+
+/*==============================================
+ SUSCRIBIRSE
+/*=============================================*/
+
+.subcribe-container{
+	width:100%;	
+	height:250px;
+	margin-bottom:30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+
+.subcribe-container h3{
+	font-size: 2rem;
+	color: rgb(56, 56, 56);
+}
+
+.subcribe-input{
+	width:500px;
+	background-color: #fff;
+	border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+	box-shadow: 2px 5px 30px rgba(0,0,0,0.1);
+}
+
+.subcribe-input input{
+	width:100%;
+	height: 40px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+.subcribe-btn{
+	width:120px;
+	height: 40px;
+	background-color: #202020;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	font-size: 1rem;
+}
+
+.subcribe-btn:hover{
+	background-color:#6b60ec;
+	transition: all  ease 0.5s;
+}

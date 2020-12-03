@@ -1,0 +1,53 @@
+/*==============================================
+ MARCA
+/*=============================================*/
+ 
+.our-brand{
+	display: flex;
+	width: 85%;
+	margin:30px auto;
+	justify-content: space-around;
+	align-items: center;
+	padding:30px;
+}
+
+.brand-text{
+	width:40%;
+	font-family:sans-serif;
+}
+
+.brand-img{
+	height: 500px;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.brand-img img{
+	width:100%;
+	height: 100%;
+	object-fit:contain;
+}
+
+.brand-text h3{
+	color:#333333;
+	font-weight: 700;
+	font-size:3rem;
+	margin:0px;
+}
+
+.brand-text h4{
+	color: #333333;
+	font-weight: 400;
+	font-size:2rem;
+	margin:0px;
+}
+
+.brand-text font{
+	color:#8d83f9;
+}
+
+.brand-text p{
+	font-size: 1rem;
+	color:#bdbdbd;
+	letter-spacing: 0.5px;
+}
